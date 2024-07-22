@@ -30,6 +30,7 @@ function draw() {
       this.style.backgroundColor = "yellow";
     });
     element.addEventListener("mousemove", function () {
+      console.log(isDrawing);
       if (isDrawing) {
         this.style.backgroundColor = "yellow";
       }

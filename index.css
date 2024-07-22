@@ -8,6 +8,10 @@
   flex: 1;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard syntax */
 }
 #main-wrapper {
   display: flex;
