@@ -1,0 +1,33 @@
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.row {
+  flex: 1;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 800px;
+  border: 1px solid black;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.slidecontainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50px;
+  top: 300px;
+}
+label {
+  font-size: 24px;
+}
