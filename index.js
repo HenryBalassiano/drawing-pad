@@ -15,7 +15,7 @@ function createGrid() {
     }
     document.getElementById(
       "slider-label"
-    ).innerHTML = `Grid Size: ${gridSize}`;
+    ).innerHTML = `Grid Size: ${gridSize} X ${gridSize}`;
 
     container.appendChild(col);
   }
