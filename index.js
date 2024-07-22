@@ -3,7 +3,7 @@ let isDrawing = false;
 
 function createGrid() {
   let container = document.getElementById("main-wrapper");
-  container.innerHTML = ""; // Clear previous grid
+  container.innerHTML = "";
   for (let i = 0; i < gridSize; i++) {
     let col = document.createElement("div");
     col.className = "col";
